@@ -27,14 +27,14 @@ map_init(&m);
 
 Values can added to a map using the `map_set()` function.
 ```c
-map_set(&m, "testkey", 123);
+map_set(&m, c_str_view("testkey"), 123);
 ```
 
 To retrieve a value from a map, the `map_get()` function can be used.
 `map_get()` will return a pointer to the key's value, or `NULL` if no mapping
 for that key exists.
 ```c
-int *val = map_get(&m, "testkey");
+int *val = map_get(&m, c_str_view("testkey"));
 if (val) {
   printf("value: %d\n", *val);
 } else {
