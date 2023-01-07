@@ -2,7 +2,7 @@
 a  hash map implementation for C, based at https://github.com/rxi/map.git
 
 ## Installation 
-The [map.c](src/map.c?raw=1) and [map.h](src/map.h?raw=1) files can be dropped
+The [map.c](src/c_map.c?raw=1) and [map.h](src/c_map.h?raw=1) files can be dropped
 into an existing C project and compiled along with it.
 
 
